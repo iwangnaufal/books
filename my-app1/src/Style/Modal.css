@@ -1,0 +1,33 @@
+.modalContainer {
+   position: fixed;
+   height: 100vh;
+   width: 100vw;
+   overflow: hidden;
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modalField {
+   text-align: center;
+   width: 30vw;
+   margin: 10vh auto;
+   padding: 2vw;
+   background-color: white;
+}
+
+.modalForm {
+   margin: 0 auto;
+   width: 80%;
+   height: 90%;
+}
+.modalInput {
+   margin: 1vh 0;
+}
+
+.modalInput::placeholder {
+   text-align: center;
+}
+
+.modalButton {
+   border-radius: 5px;
+   margin: 1vh 2vw;
+}

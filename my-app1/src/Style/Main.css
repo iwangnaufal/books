@@ -1,0 +1,29 @@
+.main {
+   text-align: center;
+}
+
+.main h1 {
+   margin: 10vh auto;
+}
+
+.bookTable {
+   border: 2px solid black;
+   margin: 0 auto 5vh auto;
+}
+
+.bookTable thead:first-child {
+   border: 2px solid black;
+}
+.bookTable tbody {
+   border: 1px solid black;
+}
+.bookTable th {
+   border: 1px solid black;
+}
+.bookTable tbody td{
+   border: 1px solid black;
+}
+
+.bookTable th, td {
+   padding: 1vw;
+}
